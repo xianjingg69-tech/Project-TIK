@@ -10,22 +10,29 @@
     <h1>Portofolio</h1>
 
     <div class="card">
-        <img src="20250405_070153_📸LEICA✨ XIAOMI ✨.jpg" alt="Foto Andi" class="profile-img">
+        <img src="" alt="Foto Andi" class="profile-img">
         <div class="info">
-            <h2>Nama: Lukman Al KHakim</h2>
-            <p><strong>Alamat:</strong> Dsn. Sumampir-Kec. Sukodadi-Kab. Lamongan</p>
-            <p><strong>Hobi:</strong> <span class="hobi">Fotografi, editing, & mendaki</span></p>
+            <h2 class="nama" onclick="tampilkanRiwayat('andi')">Nama: Andi Pratama</h2>
+            <p><strong>Alamat:</strong> Jl. Merdeka No. 45, Jakarta</p>
+            <p><strong>Hobi:</strong> <span class="hobi">Bermain gitar, membaca buku</span></p>
+            <div class="riwayat" id="riwayat-andi"></div>
         </div>
     </div>
 
     <div class="card">
-        <img src="IMG-20251025-WA0178.jpg" alt="Foto Siti" class="profile-img">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Foto Siti" class="profile-img">
         <div class="info">
-            <h2>Nama: Alfin Sabil Khafifudin</h2>
-            <p><strong>Alamat:</strong> Dsn Ngelo Ds Menongo Kec Sukodadi Kab Lamongan</p>
-            <p><strong>Hobi:</strong> <span class="hobi">Mendaki, Volly</span></p>
+            <h2 class="nama" onclick="tampilkanRiwayat('siti')">Nama: Siti Rahmawati</h2>
+            <p><strong>Alamat:</strong> Jl. Melati Indah No. 12, Bandung</p>
+            <p><strong>Hobi:</strong> <span class="hobi">Memasak, bersepeda</span></p>
+            <div class="riwayat" id="riwayat-siti"></div>
         </div>
     </div>
 
+    <div id="modal" class="modal" onclick="tutupModal()">
+        <img id="modalImg" src="" alt="Foto Gunung">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
