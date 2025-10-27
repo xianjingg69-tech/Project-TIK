@@ -1,14 +1,14 @@
 // Data riwayat pendakian
 const dataPendakian = {
     Lukman: [
-        { nama: "Mt. Penanggungan", gambar: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Mount_Gede_Pangrango.jpg" },
-        { nama: "Mt. Tanggung", gambar: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mount_Semeru_in_the_morning.jpg" },
-        { nama: "Bukit Krapyak", gambar: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Merbabu_2020.jpg" }
+        { nama: "Mt. Penanggungan", gambar: "20250405_070153_📸LEICA✨ XIAOMI ✨.jpg" },
+        { nama: "Mt. Tanggung", gambar: "IMG-20240916-WA0055.jpg" },
+        { nama: "Mt. penanggungan", gambar: "IMG_20241013_044120.jpg" }
     ],
     siti: [
-        { nama: "Mt. Buthak", gambar: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bromo-Semeru-Batok-Widodaren.jpg" },
-        { nama: "Mt. Penanggungan", gambar: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mount_Rinjani_2013.jpg" },
-        { nama: "Mt. Puthuk gragal", gambar: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gunung_Papandayan_1.jpg" }
+        { nama: "Mt. Buthak", gambar: "IMG-20251025-WA0331.jpg" },
+        { nama: "Mt. Penanggungan", gambar: "Salinan IMG-20240916-WA0046.jpg" },
+        { nama: "Mt. Puthuk gragal", gambar: "DSCO1166.JPG" }
     ]
 };
 
